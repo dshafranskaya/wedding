@@ -45,11 +45,11 @@ $(document).ready(() => {
 
   switch (+password) {
     case 1:
-      description.text('test');
+      description.text('Мы будем очень рады видеть вас рядом в этот особенный для нас день. Наша свадьба состоится 31 июля 2021 года!');
 
       invite.html(`<div class="t174__trow">
                 <div class="t174__uptitle t-uptitle t-uptitle_md" style="" field="subtitle">
-                  <div style="font-size: 18px;" data-customstyle="yes"><span style="font-size: 18px;">ПРИГЛАШЕНИЕ 1</span></div>
+                  <div style="font-size: 18px;" data-customstyle="yes"><span style="font-size: 18px;">ПРИГЛАШЕНИЕ</span></div>
                 </div>
               </div>
               <div class="t174__trow">
@@ -59,7 +59,7 @@ $(document).ready(() => {
                 <div class="t174__descr t-descr t-descr_lg t-opacity_50" style="" field="descr"><strong>Начало церемонии</strong><br /><br /><strong>— 14:00 —</strong><br /><br />Выездная регистрация начнется в 14:00 на базе отдыха Солнечный берег. Она находится в 20 километрах от Ярославля, в поселении Ивняково. Около базы есть бесплатная парковка. Дополнительно будет организован транспорт.<br /><br /><br /><strong>Вечеринка</strong><br /><br /><strong>— 17:00 —</strong><br /><br />Открытая вечеринка пройдет на территории базы отдыха. Для всех организованы спальные места, чтобы отдохнуть после)<br />P.S. Если будет позволять погода, то есть места на лужайке<br /><br /></div>
               </div>`);
 
-      dresscode.html(`<div class="t472__title t-section__title t-title t-title_md t-margin_auto" field="title" style="font-size:42px;">Дресс код 1</div>
+      dresscode.html(`<div class="t472__title t-section__title t-title t-title_md t-margin_auto" field="title" style="font-size:42px;">Дресс код</div>
           <div class="t472__descr t-section__descr t-descr t-descr_xxl t-margin_auto" field="descr" style=""><span style="font-weight: 500;">Выездная регистрация </span><br /><br />На выездную регистрацию нужно постараться прийти красивыми. Цвета нашей свадьбы - пудровый розовый, зеленый, коричневый. Однако, вы можете выбрать любой цвет, в котором вам комфортно.<br /><br /><span style="font-weight: 500;">Вечеринка</span><br /><br />А здесь уже есть официальный дресс код, который нужно соблюсти, спортивный костюм. Просьба не выбирать белый и красный цвета для костюма. </div>`)
 
       break;
