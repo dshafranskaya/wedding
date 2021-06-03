@@ -42,6 +42,7 @@ $(document).ready(() => {
   const description = $('#description');
   const invite = $('#invite');
   const dresscode = $('#dresscode');
+  const bottomText = $('#bottom-text');
 
   switch (+password) {
     case 1:
@@ -62,6 +63,8 @@ $(document).ready(() => {
       dresscode.html(`<div class="t472__title t-section__title t-title t-title_md t-margin_auto" field="title" style="font-size:42px;">Дресс код</div>
           <div class="t472__descr t-section__descr t-descr t-descr_xxl t-margin_auto" field="descr" style=""><span style="font-weight: 500;">Выездная регистрация </span><br /><br />На выездную регистрацию нужно постараться прийти красивыми. Цвета нашей свадьбы - пудровый розовый, зеленый, коричневый. Однако, вы можете выбрать любой цвет, в котором вам комфортно.<br /><br /><span style="font-weight: 500;">Вечеринка</span><br /><br />А здесь уже есть официальный дресс код, который нужно соблюсти, спортивный костюм. Просьба не выбирать белый и красный цвета для костюма. </div>`)
 
+      bottomText.text('Подтвердите, если сможете прийти. Также, если вы планируете остаться с ночевкой, сообщите нам об этом.')
+
       break;
     case 2:
       description.text('Мы будем очень рады видеть вас рядом в этот особенный для нас день. Наша свадьба состоится 31 июля 2021 года!');
@@ -81,6 +84,8 @@ $(document).ready(() => {
       dresscode.html(`<div class="t472__title t-section__title t-title t-title_md t-margin_auto" field="title" style="font-size:42px;">Дресс код 2</div>
           <div class="t472__descr t-section__descr t-descr t-descr_xxl t-margin_auto" field="descr" style=""><span style="font-weight: 500;">Выездная регистрация </span><br /><br />На выездную регистрацию нужно постараться прийти красивыми. Цвета нашей свадьбы - пудровый розовый, зеленый, коричневый. Однако, вы можете выбрать любой цвет, в котором вам комфортно.<br /><br /><span style="font-weight: 500;">Вечеринка</span><br /><br />А здесь уже есть официальный дресс код, который нужно соблюсти, спортивный костюм. Просьба не выбирать белый и красный цвета для костюма. </div>`)
 
+      bottomText.text('Подтвердите, если сможете прийти. Также, если вы планируете остаться с ночевкой, сообщите нам об этом.')
+
       break;
     case 3:
       description.text('Мы будем очень рады видеть вас рядом в этот особенный для нас день. Наша свадьба состоится 21 июля 2021 года!');
@@ -99,6 +104,9 @@ $(document).ready(() => {
 
       dresscode.html(`<div class="t472__title t-section__title t-title t-title_md t-margin_auto" field="title" style="font-size:42px;">Дресс код</div>
           <div class="t472__descr t-section__descr t-descr t-descr_xxl t-margin_auto" field="descr" style=""><span style="font-weight: 500;"</span><br /><br />Важно прийти красивыми. На нашей свадьбе нет определенной цветовой гаммы. Вы можете выбрать любой цвет, в котором вам комфортно.</div>`)
+
+      bottomText.text('Подтвердите, если сможете прийти. Также, если вы планируете остаться с ночевкой, сообщите нам об этом.')
+
       break;
     default:
       break;
