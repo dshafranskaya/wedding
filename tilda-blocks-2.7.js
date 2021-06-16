@@ -99,13 +99,13 @@ $(document).ready(() => {
                 <div class="t174__title t-title t-title_lg" style="" field="title">21 июля 2021 года</div>
               </div>
               <div class="t174__trow">
-                <div class="t174__descr t-descr t-descr_lg t-opacity_50" style="" field="descr"><strong>Начало церемонии</strong><br /><br /><strong>— 14:00 —</strong><br /><br />Торжественная регистрация начнется в 14:00 в дворце бракосочетания №1. Он находится по адресу: город Санкт-Петербург, Английская набережная дом 28.<br /><br /><br /><strong>Прогулка на теплоходе</strong><br /><br /><strong>— 15:30 —</strong><br /><br />Торжество с банкетом пройдет на теплоходе. Будем кататься по рекам и каналам. Отплываем от Медного всадника, прибываем в 20:30 на набережную реки Мойки, рядом с Исаакиевским собором.<br /><br /></div>
+                <div class="t174__descr t-descr t-descr_lg t-opacity_50" style="" field="descr"><strong>Начало церемонии</strong><br /><br /><strong>— 14:00 —</strong><br /><br />Торжественная регистрация начнется в 14:00 в дворце бракосочетания №1. Он находится по адресу: город Санкт-Петербург, Английская набережная дом 28.<br /><br /><br /><strong>Прогулка на теплоходе</strong><br /><br /><strong>— 16:00 —</strong><br /><br />Торжество с банкетом пройдет на теплоходе. Будем кататься по рекам и каналам. Отплываем от Медного всадника, прибываем в 21:00 на набережную реки Мойки, рядом с Исаакиевским собором.<br /><br /></div>
               </div>`);
 
       dresscode.html(`<div class="t472__title t-section__title t-title t-title_md t-margin_auto" field="title" style="font-size:42px;">Дресс код</div>
-          <div class="t472__descr t-section__descr t-descr t-descr_xxl t-margin_auto" field="descr" style=""><span style="font-weight: 500;"</span><br /><br />Важно прийти красивыми. На нашей свадьбе нет определенной цветовой гаммы. Вы можете выбрать любой цвет, в котором вам комфортно.</div>`)
+          <div class="t472__descr t-section__descr t-descr t-descr_xxl t-margin_auto" field="descr" style=""><span style="font-weight: 500;"</span><br />Важно прийти красивыми. На нашей свадьбе нет определенной цветовой гаммы. Вы можете выбрать любой цвет, в котором вам комфортно.</div>`)
 
-      bottomText.text('Подтвердите, если сможете прийти. Также, если вы планируете остаться с ночевкой, сообщите нам об этом.')
+      bottomText.text('Напишите нам, сможете ли Вы присутствовать на нашем торжестве.')
 
       break;
     default:
