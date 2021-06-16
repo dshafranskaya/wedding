@@ -102,7 +102,7 @@ $(document).ready(() => {
               </div>`);
 
       dresscode.html(`<div class="t472__title t-section__title t-title t-title_md t-margin_auto" field="title" style="font-size:42px;">Дресс код</div>
-          <div class="t472__descr t-section__descr t-descr t-descr_xxl t-margin_auto" field="descr" style=""><span style="font-weight: 500;"</span><br />Важно прийти красивыми. На нашей свадьбе нет определенной цветовой гаммы. Вы можете выбрать любой цвет, в котором вам комфортно.</div>`)
+          <div class="t472__descr t-section__descr t-descr t-descr_xxl t-margin_auto" field="descr" </span><br />Важно прийти красивыми. На нашей свадьбе нет определенной цветовой гаммы. Вы можете выбрать любой цвет, в котором вам комфортно.</div>`)
 
       bottomText.text('Напишите нам, сможете ли Вы присутствовать на нашем торжестве.')
 
